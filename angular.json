@@ -32,7 +32,17 @@
               }
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              {
+                "input": "src/assets/themes/lara-light-blue.scss",
+                "bundleName": "lara-light-blue",
+                "inject": false
+              },
+              {
+                "input": "src/assets/themes/lara-dark-blue.scss",
+                "bundleName": "lara-dark-blue",
+                "inject": false
+              }
             ],
             "scripts": []
           },
